@@ -1,0 +1,23 @@
+@charset "UTF-8";
+/* CSS Document */
+
+a {
+    color: black;
+}
+
+.top-container {
+    background-color: blueviolet;
+}
+
+.nav {
+    background-color: whitesmoke;
+    border-top-color:orangered;
+}
+
+.nav-items:hover {
+    color: red;
+}
+
+.section {
+    background-color: rgba(245, 245, 245, 0.541);
+}

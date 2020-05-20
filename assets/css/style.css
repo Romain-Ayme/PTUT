@@ -1,0 +1,119 @@
+@charset "UTF-8";
+/* CSS Document */
+
+*, *::before, *::after {
+    box-sizing: content-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+/**/
+
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    /*background-image: url(https://1.bp.blogspot.com/-W9Pm2L-yQkE/Vy3iz1NLAmI/AAAAAAAABCI/bg-LnK36WBAXNsbNg_d5bwqHcPSmcYt-gCLcB/s1600/fond%2Bd%2527%25C3%25A9cran%2Bnature%2B%25285%2529.jpg);*/
+    background-color: cornflowerblue;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: none;
+    background-size: 100%;
+    font-size: 18px;
+}
+
+.top-container {
+    background-color: blueviolet;
+    padding: 10px 0 30px 0;
+    text-align: center;
+}
+
+.content {
+    padding: 16px;
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.sticky+.content {
+    padding-top: 102px;
+}
+
+/* */
+
+.nav {
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    background-color: whitesmoke;
+    border-top: 2px solid;
+}
+
+.nav-items {
+    padding: 1.5% 0;
+    width: 15vw;
+    text-align: center;
+    letter-spacing: 0.1rem;
+    text-transform: uppercase;
+    font-size: 0.7vw;
+    font-weight: bold;
+}
+
+.nav-items:hover {
+    color: red;
+}
+
+/* text décoration */
+
+.gras {
+    font-weight: bold;
+}
+
+.souligne {
+    text-decoration: underline;
+}
+
+/* fin text décoration */
+
+
+.image_sondage {
+  width: 600px;
+  height: 350px;
+  margin-top: 20px;
+  border-radius: 10px;
+}
+
+/*  */
+
+
+header {
+    position: relative;
+    bottom: 22px;
+}
+
+.intro {
+    margin: 50px 50px;
+    text-align: justify;
+}
+
+.photo {
+    width: 300px;
+    height: auto;
+}
+
+.section {
+    text-align: center;
+    margin: 0 20% 1% 20%;
+    padding: 1% 1% 1% 1%;
+    background-color: rgba(245, 245, 245, 0.541);
+    border-radius: 10px;
+}
