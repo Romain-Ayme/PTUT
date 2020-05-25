@@ -6,7 +6,8 @@ a {
 }
 
 .top-container {
-    background-color: blueviolet;
+    background-color: rgb(80, 196, 105);
+    
 }
 
 .nav {
@@ -19,5 +20,13 @@ a {
 }
 
 .section {
-    background-color: rgba(245, 245, 245, 0.541);
+    background-color: rgb(245, 245, 245);
+}
+
+.color-nb{
+    color: red;
+}
+
+.color-nb-point{
+    color: darkgreen;
 }

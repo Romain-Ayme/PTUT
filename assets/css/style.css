@@ -14,13 +14,18 @@ a {
     color: black;
 }
 
+ul{
+    /* Afin d'enlever les points devant chaque texte inclut dans une balise <li> */
+    list-style-type: none;
+}
+
 /**/
 
 body {
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
-    /*background-image: url(https://1.bp.blogspot.com/-W9Pm2L-yQkE/Vy3iz1NLAmI/AAAAAAAABCI/bg-LnK36WBAXNsbNg_d5bwqHcPSmcYt-gCLcB/s1600/fond%2Bd%2527%25C3%25A9cran%2Bnature%2B%25285%2529.jpg);*/
-    background-color: cornflowerblue;
+    background-image: url(https://1.bp.blogspot.com/-W9Pm2L-yQkE/Vy3iz1NLAmI/AAAAAAAABCI/bg-LnK36WBAXNsbNg_d5bwqHcPSmcYt-gCLcB/s1600/fond%2Bd%2527%25C3%25A9cran%2Bnature%2B%25285%2529.jpg);
+    /*background-color: cornflowerblue;*/
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: none;
@@ -29,9 +34,11 @@ body {
 }
 
 .top-container {
-    background-color: blueviolet;
-    padding: 10px 0 30px 0;
+    /*background-color: blueviolet;*/
+    padding: 5px 0 37px 0;
     text-align: center;
+    font-size: large;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .content {
@@ -58,18 +65,53 @@ body {
     border-top: 2px solid;
 }
 
+
+
 .nav-items {
-    padding: 1.5% 0;
+    padding: 1% 2%;
     width: 15vw;
     text-align: center;
     letter-spacing: 0.1rem;
     text-transform: uppercase;
-    font-size: 0.7vw;
+    /*font-size: 1.2vw;*/
     font-weight: bold;
 }
 
+#item-home{
+    color: blue;
+    font-size: 28px;
+    padding-top: 1.9%;
+    padding-bottom: 1.9%;
+}
+
+#item-risques{
+    font-size: 18px;
+    padding-top: 2%;
+    padding-bottom: 1.9%;
+}
+
+#item-solutions{
+    font-size: 18px;
+    padding-top: 2%;
+    padding-bottom: 1.9%;
+}
+
+#item-affiche{
+    font-size: 18px;
+    padding-top: 2%;
+    padding-bottom: 1.9%;
+}
+
+#item-sondage{
+    font-size: 16px;
+    padding-top: 1.8%;
+    padding-bottom: 1.9%;
+}
+
+
 .nav-items:hover {
     color: red;
+    
 }
 
 /* text décoration */
@@ -80,6 +122,7 @@ body {
 
 .souligne {
     text-decoration: underline;
+    color: blue;
 }
 
 /* fin text décoration */
@@ -114,6 +157,22 @@ header {
     text-align: center;
     margin: 0 20% 1% 20%;
     padding: 1% 1% 1% 1%;
-    background-color: rgba(245, 245, 245, 0.541);
     border-radius: 10px;
+}
+
+.vague_verte{
+    text-align: center;
+}
+
+.color-nb-point{
+    font-size: larger;
+}
+
+.intro-solution{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+}
+
+.patou {
+    border-radius: 20px;
 }
